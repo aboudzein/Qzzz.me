@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Antd.Design React Starter Kit](README.md)
 
