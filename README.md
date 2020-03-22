@@ -1,22 +1,25 @@
 ---
-description: My Own Future project starter kit for React using Ant.Design Framework
+description: eTuzla Live Exam System Maker 
 ---
 
-# Antd.Design React Starter Kit
-
-Not For Production use yet .
-
-```
-$    git clone https://github.com/aboudzein/antd-react-starterkit.git
-```
+# eTuzla Live Exam System Maker
 
 
- Using this starter kit save for you a lot of time configuring ant , axios , logging , authentication , layouts , page  structure 
 
 ### Features
 
-1. Authentication Pages 
-2. Page Layout System 
-3. AntDesign Theming **Customization** 
-4. Small Dashboard 
+1. Exam Components Container   
+2. Exam Session Builder Page
+3. Question Bank Page 
+4. Small Analytics Dashboard 
+5. Authentication
+6. Share Exam Url Builder 
+7. Guest Mode 
+8. Student Dashboard 
+9. Teacher Dashboard 
+10. Admin Dashboard 
+11. Api Integration 
+
+
+
 

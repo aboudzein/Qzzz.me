@@ -1,7 +1,7 @@
 import React from "react";
 import { Layout, Menu, Breadcrumb } from 'antd';
 const { Header, Content, Footer } = Layout;
-export default function NavBarLayout() {
+export default function NavBarLayout(props) {
   return (
     <div>
       <Layout className="layout">
@@ -19,12 +19,7 @@ export default function NavBarLayout() {
           </Menu>
         </Header>
         <Content style={{ padding: "0 50px" }}>
-          <Breadcrumb style={{ margin: "16px 0" }}>
-            <Breadcrumb.Item>Home</Breadcrumb.Item>
-            <Breadcrumb.Item>List</Breadcrumb.Item>
-            <Breadcrumb.Item>App</Breadcrumb.Item>
-          </Breadcrumb>
-          <div className="site-layout-content">Content</div>
+          { props.children }
         </Content>
         <Footer style={{ textAlign: "center" }}>
           Ant Design ©2018 Created by Ant UED
