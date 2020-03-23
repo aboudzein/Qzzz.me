@@ -7,7 +7,9 @@ import SideBarLayout from './Layouts/SideBar/SideBarLayout';
 
 function App() {
   return (
-    <SideBarLayout/>
+    <SideBarLayout />
+     
+  
   );
 }
 

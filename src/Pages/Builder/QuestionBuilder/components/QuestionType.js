@@ -14,7 +14,7 @@ export default function QuestionType() {
     <div>
       <Select
         defaultValue="textAnswer"
-        style={{ width: 120 }}
+        style={{ width: 160 }}
         onChange={handleChange}
       >
         <Option value="textAnswer">Text Answer</Option>
