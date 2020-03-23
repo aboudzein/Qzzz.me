@@ -11,30 +11,15 @@ import {
   TeamOutlined,
   FieldTimeOutlined
 } from "@ant-design/icons";
-import HomePage from "../../Pages/Landing/HomePage";
-import MyBankPage from "../../Pages/Teacher/MyBankPage";
-import QuestionBuilderPage from "../../Pages/Builder/QuestionBuilder/QuestionBuilderPage";
+import HomePage from "../../../../Pages/Landing/HomePage";
+import MyBankPage from "../../../../Pages/Teacher/MyBankPage";
+import QuestionBuilderPage from "../../../../Pages/Builder/QuestionBuilder/QuestionBuilderPage";
 const { SubMenu } = Menu;
 const { Header, Content, Sider } = Layout;
 
-const routes = [
-  {
-    path: "/",
-    exact: true,
-    sidebar: () => <p>Hello</p>,
-  },
-  {
-    path: "/create-question",
-    exact: true,
-    sidebar: () => <QuestionBuilderPage/>,
-  },
-  {
-    path: "/myBank",
-    sidebar: () => <HomePage />,
-  }
-];
 
-export default function SideBarLayout() {
+
+export default function SideBarLayout(props) {
   return (
     <Router>
       <Layout>
@@ -133,16 +118,7 @@ export default function SideBarLayout() {
               }}
             >
               {
-                <Switch>
-                  {routes.map((route, index) => (
-                    <Route
-                      key={index}
-                      path={route.path}
-                      exact={route.exact}
-                      children={route.sidebar}
-                    />
-                  ))}
-                </Switch>
+                props.children
               }
             </Content>
           </Layout>

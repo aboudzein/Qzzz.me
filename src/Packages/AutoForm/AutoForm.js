@@ -17,7 +17,6 @@ function returnComponents(props){
     return fieldsArray.map( item => { switch(item.type){
         case 'string':
             return <TextField key={item['id']} placeholder={item.placeHolder}/>
-            break;
         case 'checkbox':
             return <CheckBox key={item['id']} />
    }} )
