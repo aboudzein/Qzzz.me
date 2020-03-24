@@ -1,12 +1,20 @@
----
-description: eTuzla Live Exam System Maker 
----
 
-# eTuzla Live Exam System Maker
+# eTuzla.Exam Application
 
+A ReactJs App for Building live exams online using Dynamic Form Builder 
+it's Like a google Form's Clone but with small elearning managment system .
 
+## Getting Started 
 
-### Features
+Important Notice : Not For Production & Not Stable & UnderDevelopment .
+
+``` git clone https://github.com/aboudzein/eTuzla.Exam.git ```
+
+``` yarn install  ```
+ 
+ 
+
+### Features Under Development 
 
 1. Exam Components Container   
 2. Exam Session Builder Page
@@ -19,6 +27,8 @@ description: eTuzla Live Exam System Maker
 9. Teacher Dashboard 
 10. Admin Dashboard 
 11. Api Integration 
+
+
 
 
 
