@@ -9,7 +9,7 @@ import {
   FileImageOutlined,
   GroupOutlined
 } from "@ant-design/icons";
-import "./FieldPicker.css";
+import "./FreeBirdPicker.css";
 export default function FieldPicker(props) {
   const [SchemaObject, setSchemaObject] = React.useState({});
 
@@ -66,65 +66,6 @@ export default function FieldPicker(props) {
           <GroupOutlined />
         </Button>
       </div>
-
-      <Card style={{ marginBottom: "20px" }}>
-        <Button
-          onClick={() => {
-            props.data(generateSchema({ type: "checkbox" }));
-          }}
-        >
-          <CloseSquareOutlined /> Multiple Choise{" "}
-        </Button>
-        <Button
-          onClick={() => {
-            props.data(generateSchema({ type: "checkbox" }));
-          }}
-        >
-          <CloseSquareOutlined /> CheckBoxes{" "}
-        </Button>
-        <Button
-          onClick={() => {
-            props.data(generateSchema({ type: "checkbox" }));
-          }}
-        >
-          <CloseSquareOutlined /> DropDown{" "}
-        </Button>
-        <Button
-          onClick={() => {
-            props.data(generateSchema({ type: "checkbox" }));
-          }}
-        >
-          <CloseSquareOutlined /> Linear Scale{" "}
-        </Button>
-        <Button
-          onClick={() => {
-            props.data(generateSchema({ type: "checkbox" }));
-          }}
-        >
-          <CloseSquareOutlined /> Multiple Choise Grid{" "}
-        </Button>
-        <Button
-          onClick={() => {
-            props.data(generateSchema({ type: "checkbox" }));
-          }}
-        >
-          <CloseSquareOutlined /> Tick Box Grid{" "}
-        </Button>
-        <Button
-          onClick={() => {
-            props.data(generateSchema({ type: "checkbox" }));
-          }}
-        >
-          <CloseSquareOutlined /> Date{" "}
-        </Button>
-        <Button
-          onClick={() => {
-            props.data(generateSchema({ type: "checkbox" }));
-          }}
-        >
-          <CloseSquareOutlined /> Time{" "}
-        </Button>
-      </Card>
     </div>
   );
 }

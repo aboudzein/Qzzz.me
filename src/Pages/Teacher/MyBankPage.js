@@ -7,7 +7,7 @@ PlusOutlined
 } from "@ant-design/icons";
 import QuestionsList from "./QuestionsList/QuestionsList";
 import ExamCreatePage from "./ExamCreate/ExamCreatePage";
-import AutoForm from "../../Packages/AutoForm/AutoForm";
+
 
 const { TabPane } = Tabs;
 

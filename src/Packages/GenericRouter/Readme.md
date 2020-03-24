@@ -14,7 +14,7 @@ Just your routes array
 
 1. Create a Router Component in your root folder 
 2. define a routes array contain this structure 
-```
+```js
  {
     path : "/",
     exact: true , 
@@ -27,7 +27,7 @@ Just your routes array
 
 Example 
 
-```
+```js
 import React from 'react'
 import GenericRouter from '../../Packages/GenericRouter/GenericRouter'
 import QuestionBuilderPage from '../../Pages/Builder/QuestionBuilder/QuestionBuilderPage'

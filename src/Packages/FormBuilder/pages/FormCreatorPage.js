@@ -1,8 +1,9 @@
-import FieldPicker from "../components/FieldPicker";
-import AutoForm from "../../AutoForm/AutoForm";
+import FreeBirdPicker from "../components/FreeBirdPicker";
+import AutoForm from "../../AutoForm/AutoField";
 import React, { useEffect, useState } from "react";
 import FormInfo from "../components/FormInfo";
 import { Row, Col } from "antd";
+import AutoContainer from "../../AutoForm/AutoContainer";
 
 export default function FormCreatorPage() {
   // Update the Component State from Field Picker Data
@@ -25,8 +26,8 @@ export default function FormCreatorPage() {
       <Row>
         <Col span={12} offset={6}>
           <FormInfo />
-          <FieldPicker data={data} />
-          <AutoForm schema={fields} />
+          <FreeBirdPicker data={data} />
+          <AutoContainer/>
         </Col>
       </Row>
     </div>
