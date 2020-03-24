@@ -4,6 +4,7 @@ import QuestionBuilderPage from '../../Pages/Builder/QuestionBuilder/QuestionBui
 import HomePage from '../../Pages/Landing/HomePage'
 import NavBarLayout from '../../Packages/Layouts/Ant.Design/NavBar/NavBarLayout'
 import SideBarLayout from '../../Packages/Layouts/Ant.Design/SideBar/SideBarLayout'
+import ExamCreatePage from '../../Pages/Teacher/ExamCreate/ExamCreatePage'
 
 const routes = [
     {
@@ -22,6 +23,12 @@ const routes = [
         exact: true,
         page: QuestionBuilderPage,
         layout: SideBarLayout
+      },
+      {
+        path: "/exam-create",
+        exact: true,
+        page: ExamCreatePage,
+        layout: NavBarLayout
       },
      
     

@@ -1,6 +1,6 @@
-import React  , { useEffect , useState } from 'react'
-import AutoForm from '../../../Packages/AutoForm/AutoForm'
-import FieldPicker from '../../../Packages/FormBuilder/components/FieldPicker'
+import React  , { useEffect , useState, Fragment } from 'react'
+import FormCreatorPage from '../../../Packages/FormBuilder/pages/FormCreatorPage';
+
 
 export default function ExamCreatePage() {
 
@@ -10,23 +10,10 @@ export default function ExamCreatePage() {
     const [ fields , setFieldsSchema] = useState([]);
 
 
-    useEffect(() => {
-        setFieldsSchema([])
-    } , [])
-
-    // This Function Here to Get The Data from Field Picker 
-
-    const data = (schemaObject) => {
-        // Spread operator, wrapper function 
-        setFieldsSchema(fields => [...fields  , schemaObject])
-    
-    }
-
 
     return (
-        <div>
-            <FieldPicker data={data}/>
-            <AutoForm schema={fields}/>
-        </div>
+        <Fragment>
+            <FormCreatorPage/>
+        </Fragment>
     )
 }
