@@ -1,22 +1,44 @@
 import React from "react";
-import SideBarLayout from "../Layouts/Ant.Design/SideBar/SideBarLayout";
-import { Switch, Route } from "react-router-dom";
 
-// Generic Router Depend on Layouts Package
+import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
+
+/* {
+    path : "/",
+    exact: true , 
+    page : Component,
+    layout : Component 
+} */
+
+// eTuzla Generic Package
+
+// Feature Improvement 
+// Tracking the all Location changes and saving them .
 
 export default function GenericRouter(props) {
   return (
-    <SideBarLayout>
+    <Router>
       <Switch>
         {props.routes.map((route, index) => (
-          <Route
+          <RouterWrapper
+            exact={route.exact}
             key={index}
             path={route.path}
-            exact={route.exact}
-            children={route.page}
+            layout={route.layout}
+            component={route.page}
           />
         ))}
       </Switch>
-    </SideBarLayout>
+    </Router>
   );
 }
+
+const RouterWrapper = ({ component: Component, layout: Layout, ...rest }) => (
+  <Route
+    {...rest}
+    render={props => (
+      <Layout>
+        <Component {...props} />
+      </Layout>
+    )}
+  />
+);

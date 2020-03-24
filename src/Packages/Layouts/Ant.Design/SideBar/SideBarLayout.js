@@ -21,7 +21,7 @@ const { Header, Content, Sider } = Layout;
 
 export default function SideBarLayout(props) {
   return (
-    <Router>
+   
       <Layout>
         <Header className="header">
           <div className="logo" />
@@ -118,12 +118,12 @@ export default function SideBarLayout(props) {
               }}
             >
               {
-                props.children
+                props.children  
               }
             </Content>
           </Layout>
         </Layout>
       </Layout>
-    </Router>
+  
   );
 }
