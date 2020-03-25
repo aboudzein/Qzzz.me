@@ -4,7 +4,7 @@ it's a ReactJS Package Building the form based on json config  .
 
 ## Json Config Example
 
-```json
+```js
 
 const form = {
     "formTitle": "Unititled Form",

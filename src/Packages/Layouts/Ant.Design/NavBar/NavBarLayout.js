@@ -22,7 +22,7 @@ export default function NavBarLayout(props) {
           { props.children }
         </Content>
         <Footer style={{ textAlign: "center" }}>
-          Ant Design ©2018 Created by Ant UED
+          eTuzla ©2020 Created by Ant Tuzla For Smart Apps
         </Footer>
       </Layout>
     </div>
