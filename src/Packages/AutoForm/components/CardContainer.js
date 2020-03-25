@@ -11,13 +11,15 @@ import AutoField from "../AutoField";
 
 const { Option, OptGroup } = Select;
 
-function handleChange(value) {
+function handleCardTypeChange(value) {
     console.log(`selected ${value}`);
   }
 
+
+
 // Google Card Container
 
-export default function CardContainer() {
+export default function CardContainer(props) {
   return (
     <Card>
       <Row>
@@ -27,17 +29,17 @@ export default function CardContainer() {
         <Col span={2}></Col>
         <Col span={8}>
           <Select
-            defaultValue="multiple_choice"
+            defaultValue="MultipleChoice"
             style={{ width: 175 }}
-            onChange={handleChange}
+            onChange={handleCardTypeChange}
           >
             <OptGroup label="Types">
-              <Option value="short_answer"><EditFilled/>{" "}Short Answer</Option>
-              <Option value="paragraph">{" "}Paragraph</Option>
-              <Option value="multiple_choice"><DownCircleFilled/> {" "}Multiple Choice</Option>
-              <Option value="checkbox"><CheckSquareFilled/>{" "}Checkboxes</Option>
-              <Option value="dropdown"><DownCircleFilled/>{" "}DropDown</Option>
-              <Option value="fileUpload"><FileFilled/>{" "}FileUpload</Option>
+              <Option value="ShortAnswer"><EditFilled/>{" "}Short Answer</Option>
+              <Option value="Paragraph">{" "}Paragraph</Option>
+              <Option value="MultipleChoice"><DownCircleFilled/> {" "}Multiple Choice</Option>
+              <Option value="CheckBox"><CheckSquareFilled/>{" "}Checkboxes</Option>
+              <Option value="DropDown"><DownCircleFilled/>{" "}DropDown</Option>
+              <Option value="FileUpload"><FileFilled/>{" "}FileUpload</Option>
             </OptGroup>
           </Select>
         </Col>
