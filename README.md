@@ -10,7 +10,7 @@ UnderDevelopment Project .
 
 Important Notice : Not For Production & Not Stable & UnderDevelopment .
 
-``` git clone https://github.com/aboudzein/eTuzla.Exam.git ```
+``` git clone https://github.com/aboudzein/eTuzla.QuizApp.git ```
 
 ``` yarn install  ```
 
