@@ -1,8 +1,10 @@
 
-# eTuzla.Exam Application
+# eTuzla.QuizApp Application
 
-A ReactJs App for Building live exams online using Dynamic Form Builder 
-it's Like a google Form's Clone but with small elearning managment system .
+A ReactJs App for Building live exams online using Dynamic Form Builder Techniue 
+it's Like a Google Form's Clone but with small elearning managment system .
+
+UnderDevelopment Project .
 
 ## Getting Started 
 

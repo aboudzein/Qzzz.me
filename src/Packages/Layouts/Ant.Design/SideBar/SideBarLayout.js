@@ -32,8 +32,8 @@ export default function SideBarLayout(props) {
             style={{ lineHeight: "64px" }}
           >
             <Menu.Item key="1">Home</Menu.Item>
-            <Menu.Item key="2">E-Tuzla</Menu.Item>
-            <Menu.Item key="3">Tuzla-3</Menu.Item>
+            <Menu.Item key="2">Create Quiz Page</Menu.Item>
+            <Menu.Item key="3">Favourites</Menu.Item>
           </Menu>
         </Header>
 
