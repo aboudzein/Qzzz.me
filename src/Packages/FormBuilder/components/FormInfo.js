@@ -11,7 +11,8 @@ export default function FormInfo() {
       borderTop: "10px solid",
       borderTopLeftRadius: "10px",
       borderTopRightRadius: "10px",
-      borderTopColor: "#1DA57A"
+      borderTopColor: "#001529",
+      borderRadius: "10px"
 
     },
     formTitle: {

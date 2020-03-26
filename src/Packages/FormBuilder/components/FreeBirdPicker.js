@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Card, Menu } from "antd";
+import { Button, Card, Menu , Affix } from "antd";
 import { generateSchema } from "../utils/ManipulateSchema";
 import {
   FontColorsOutlined,
@@ -14,7 +14,7 @@ export default function FieldPicker(props) {
   const [SchemaObject, setSchemaObject] = React.useState({});
 
   return (
-    <div>
+    <Affix offsetTop="10">
       <div className="FieldPickerMenu">
         <Button
           onClick={() => {
@@ -66,6 +66,6 @@ export default function FieldPicker(props) {
           <GroupOutlined />
         </Button>
       </div>
-    </div>
+    </Affix>
   );
 }

@@ -14,9 +14,9 @@ function returnFieldComponent(props){
 
     
     switch(props.type){
-        case 'string':
+        case 'ShortAnswer':
             return <TextField placeholder={props.placeHolder}/>
-        case 'checkbox':
+        case 'CheckBox':
             return <CheckBox />
    } 
    
