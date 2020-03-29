@@ -1,8 +1,8 @@
 import React from "react";
 import { Card, Row, Col, Input, Button } from "antd";
-import styles from "./Login.module.css";
+import "./Signup.css";
 import { Link } from "react-router-dom";
-export default function LoginPage() {
+export default function SignupPage() {
   return (
     <div>
       <Row
@@ -10,50 +10,50 @@ export default function LoginPage() {
         style={{ alignSelf: "center", height: "100vh" }}
         align="middle"
       >
-        <Col span={8}>
-          <Card className={styles.login_Card}>
-            <div className={styles.top_Section}>
+        <Col span={12}>
+          <Card className="login_card">
+            <div className="signup-card_top_section">
               <Row align="middle" justify="center">
                 <Col align="middle">
-                  <h1 >ASAMI APP</h1>
+                  <h1 className="login_text">ASAMI APP</h1>
                 </Col>
               </Row>
               <Row align="middle">
                 <Col align="middle">
-                  <h2 >Login</h2>
+                  <h2 className="login_text">Login</h2>
                 </Col>
               </Row>
               <Row align="middle">
                 <Col align="middle">
-                  <h4 >
+                  <h4 className="login_text">
                     Using your social account
                   </h4>
                 </Col>
               </Row>
             </div>
-            <div className={styles.middle_section}>
+            <div className="middle_section">
               <Input
-                className={styles.email_Input_Text}
+                className="email_input_text"
                 placeholder="Email or Phone"
               ></Input>
-              <Button className={styles.forget_Button} type="link">
+              <Button className="forget_button" type="link">
                 Forget your email ?{" "}
               </Button>
-              <div className={styles.guest_mode_Section}>
+              <div className="guest-mode_section">
                 <p >Not your computer? Use Guest mode to sign in privately.</p>
               </div>
             </div>
-            <div >
-              <Row className={styles.footer_Section}>
-                <Col span={24}  justify="center" align="middle">
-                  <Button className={styles.create_account_Button} type="link">
+            <div className="footer_section">
+              <Row>
+                <Col span={24}>
+                  <Button className="create-account_button" type="link">
                     Create an account
                   </Button>
                   <Link to="/signup">
-                  <Button size="middle" className={styles.login_Button} type="primary">
+                  <Button size="middle" className="login_button" type="primary">
                     Next
                   </Button>
-                  </Link> 
+                  </Link>
                   
                 </Col>
               </Row>
