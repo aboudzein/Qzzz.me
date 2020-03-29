@@ -59,7 +59,7 @@ export default function CardContainer(props) {
           <Select
           size="middle"
             defaultValue="ShortAnswer"
-            style={{ width: 200 , lineHeight: 20  }}
+            style={{ width: "100%" , lineHeight: 20  }}
             onChange={handleCardTypeChange}
           >
             <OptGroup label="Types">

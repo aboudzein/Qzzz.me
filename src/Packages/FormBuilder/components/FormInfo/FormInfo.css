@@ -1,0 +1,25 @@
+.card {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-top: 10px solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-color : #001529;
+    border-radius: 10px
+}
+
+
+.input-title {
+    font-size: 32px;
+  color: black;
+  padding: 10px;
+  line-height: 30px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  margin-bottom: 17px;
+}
+
+.input-title:focus {
+    border: 0px;
+}
