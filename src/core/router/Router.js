@@ -5,6 +5,8 @@ import HomePage from '../../Pages/Landing/HomePage'
 import NavBarLayout from '../../Packages/Layouts/Ant.Design/NavBar/NavBarLayout'
 import SideBarLayout from '../../Packages/Layouts/Ant.Design/SideBar/SideBarLayout'
 import ExamCreatePage from '../../Pages/Teacher/ExamCreate/ExamCreatePage'
+import ExternalLayout from '../../Packages/Layouts/Ant.Design/External/ExternalLayout'
+import LoginPage from '../../Pages/Authentication/Login/LoginPage'
 
 const routes = [
     {
@@ -29,6 +31,12 @@ const routes = [
         exact: true,
         page: ExamCreatePage,
         layout: NavBarLayout
+      },
+      {
+        path: "/login",
+        exact: true,
+        page: LoginPage,
+        layout: ExternalLayout
       },
      
     

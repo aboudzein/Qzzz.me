@@ -1,7 +1,7 @@
 import FreeBirdPicker from "../components/FreeBirdPicker";
 import AutoForm from "../../AutoForm/AutoField";
 import React, { useEffect, useState } from "react";
-import FormInfo from "../components/FormInfo";
+import FormInfo from "../components/FormInfo/FormInfo";
 import { Row, Col } from "antd";
 import AutoContainer from "../../AutoForm/AutoContainer";
 
