@@ -6,13 +6,13 @@
     
 }
 
-.login_card {
+.login_Card {
     height: 500px;
     border-radius: 10px;
     border-color: gainsboro;
 }
 
-.top_section {
+.top_Section {
     height: 175px;
     display: flex;
     flex-direction: column;
@@ -20,14 +20,14 @@
     justify-content: center;
 }
 
-.middle_section {
+.middle_Section {
     height:  175px;
     display: flex;
     padding:15px;
     flex-direction: column;
 }
 
-.email_input_text {
+.email_Input_Text {
     width: 100%;
     height: 55px;
     border-radius: 4px;
@@ -37,12 +37,12 @@
 }
 
 
-.forget_button {
+.forget_Button {
     text-align: start;
     padding: 1px;
 }
 
-.login_button {
+.login_Button {
     float: right;
     padding-left: 30px;
     padding-right: 30px;
@@ -50,19 +50,21 @@
     border-radius: 4px;
 }
 
-.footer_section {
-    padding: 15px;
+.footer_Section {
+    height: 150px;
+    align-items: center;
 }
 
-.create-account_button {
+.create_account_Button {
     float: left;
     padding: 0px;
 }
 
-.guest-mode_section {
+.guest_mode_Section {
    color:#5f6368;
    font-size: 14px;
    font-weight: 500;
     text-align: start;
     margin-top: 20px;
 }
+
