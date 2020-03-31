@@ -1,5 +1,5 @@
 import React from 'react'
-import GenericRouter from '../../Packages/GenericRouter/GenericRouter'
+import GenericRouter from '@aboudzein/react-pkg'
 import QuestionBuilderPage from '../../Pages/Builder/QuestionBuilder/QuestionBuilderPage'
 import HomePage from '../../Pages/Landing/HomePage'
 import NavBarLayout from '../../Packages/Layouts/Ant.Design/NavBar/NavBarLayout'
