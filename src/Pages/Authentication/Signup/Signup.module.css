@@ -1,0 +1,38 @@
+.sign_up_Page {
+    height: 100vh;
+    background-color: red;
+    align-self: center;
+}
+
+.signUpRow {
+    margin: auto;
+    align-self: center;
+}
+
+.fullNameSection {
+    display: flex;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+
+.signUpCard {
+    height: 400px;
+    border-radius: 10px;
+}
+
+.topSection {
+    height: 100px;
+}
+
+.middleSection {
+    height: 100px;
+}
+
+.userNameSection {
+    height: 50px;
+}
+
+.passwordSection {
+    display: flex;
+}

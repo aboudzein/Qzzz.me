@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@aboudzein/react-pkg@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@aboudzein/react-pkg/-/react-pkg-1.0.0.tgz#b5eb4d73d496ef8f551c748fbcb164db76882d12"
+  integrity sha512-QGIATsK27HcJdgTJw6ykGnLIHXI75jaSB0Lfemez306VaGRPrVT4Exmo1wzm4PA7DZ6fylh+emaZ1K8Wts7eCg==
+
 "@ant-design/colors@^3.1.0":
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/@ant-design/colors/-/colors-3.2.2.tgz#5ad43d619e911f3488ebac303d606e66a8423903"
